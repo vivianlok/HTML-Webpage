@@ -1,0 +1,445 @@
+<html>
+<head>
+<title>Business Website</title>
+<link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <!-----Navigation Bar------>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto my-2 my-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#top">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">OUR TEAM</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#price">PRICE PLANS</a>
+                  </li>              
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+      </section>
+    <!-----Slider------>
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#headerSlider" data-slide-to="1"></li>
+              <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner1.jpg" class="d-block img-fluid">
+                <div class="carousel-caption">
+                    <h5>Sleeping</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner2.PNG" class="d-block img-fluid">
+                <div class="carousel-caption">
+                    <h5>Awake</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner3.PNG" class="d-block img-fluid">
+                <div class="carousel-caption">
+                    <h5>Napping</h5>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+    </div>
+    <!-----About------>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <div class="about-content">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    </div>
+                    <button type="button" class="btn btn-primary"> Read more>></button>
+                </div>
+
+                <!-----Div Progress Bar Start------>
+                <div class="col-md-6 skills-bar">
+
+                    <p>Laziness</p>
+                        <div class="progress">
+                        <div class="progress-bar" style="width: 90%;">90%</div>
+                    </div>
+                    <p>Sleepiness</p>
+                        <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                    <p>Energy</p>
+                        <div class="progress">
+                        <div class="progress-bar" style="width: 10%;">10%</div>
+                    </div>
+                    <p>Cuddliness</p>
+                        <div class="progress">
+                        <div class="progress-bar" style="width: 100%;">100%</div>
+                    </div>
+                    <p>Hunger Level</p>
+                    <div class="progress">
+                    <div class="progress-bar" style="width: 50%;">60%</div>
+                </div>
+
+                </div>
+                <!-----Div Progress Bar End------>
+
+            </div>
+           
+                  
+        </div>
+    </div>
+        </div>
+    </section>
+
+
+        <!------------Services--------------->
+        <section id="services">
+            <div class="container">
+                <h1>Our Services</h1>
+                <!-----Services Row Icon Start------>
+                <div class="row services">
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Dogs developing websites for you.
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-tablet"></i>
+                        </div>
+                        <h3>App Development</h3>
+                        <p>Dogs developing apps for you.
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-line-chart"></i>
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Dogs developing websites for you.
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Dogs developing websites for you.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-----Services Row Icon End------>
+
+            </div>
+        </section>
+
+        
+        <!------------Team Members Section Start--------------->
+        <section id="team">
+            <div class="container">
+                <h1>Our Team</h1>
+                <!------------Team Members Profile Start--------------->
+                <div class="row">
+
+                    <div class="cold-md-3 profile-pic text-center">
+                        <div class="img-box">
+                            <img src="img/team1.jpeg" class="img-responsive">
+                            <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                            </ul>
+                        </div>
+                        <h2>Anna</h2>
+                        <h3> Founder / CEO</h3>
+                        <p>15 years of dog training</p>
+                    </div>
+
+                    <div class="cold-md-3 profile-pic text-center">
+                        <div class="img-box">
+                            <img src="img/team2.jpg" class="img-responsive">
+                            <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                            </ul>
+                        </div>
+                        <h2>Ashley</h2>
+                        <h3>Dog Trainer</h3>
+                        <p>Expert at dog training</p>
+                    </div>
+
+                    <div class="cold-md-3 profile-pic text-center">
+                        <div class="img-box">
+                            <img src="img/team3.jpg" class="img-responsive">
+                            <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                            </ul>
+                        </div>
+                        <h2>Madison</h2>
+                        <h3>Dog Walker</h3>
+                        <p>Like this video and add your comments</p>
+                    </div>
+
+                    <div class="cold-md-3 profile-pic text-center">
+                        <div class="img-box">
+                            <img src="img/team4.jpeg" class="img-responsive">
+                            <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                            </ul>
+                        </div>
+                        <h2>Allison</h2>
+                        <h3>Sales</h3>
+                        <p>Like this video and add your comments</p>
+                    </div>
+
+                </div>
+                <!------------Team Members Profile End--------------->
+            </div>
+        </section>
+        <!------------Team Members Section End--------------->
+
+
+        <!------------Promo Section Start--------------->
+        <section id="promo">
+            <div class="container">
+                <p>Get Free Domain Name and Web Hosting</p>
+                <a href="#contact" class="btn btn-primary">Contact Us</a>
+            </div>
+        </section>
+        <!------------Promo Section End--------------->
+        
+        <!------------Price Plan Section Start--------------->
+        <section id="price">
+            <div class="container">
+                <h1>Price Plans</h1>
+                <div class="row">
+                    <!------------Price Plan Rows Start--------------->
+                    <div class="col-md-3">
+                        <div class="single-price">
+                            <div class="price-head">
+                                <h2>Free</h2>
+                                <p>$0 <span>month</span></p>
+                            </div>
+                            <div class="price-content">
+                                <ul>
+                                    <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                                    <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                                    <li><i class="fa fa-times-circle"></i>15 Email Accounts</li>
+                                    <li><i class="fa fa-times-circle"></i>Unlimited Domains</li>
+                                    <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                                </ul>
+                            </div>
+                            <div class="price-button">
+                                <a class="buy-btn" href="#">Join Free</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-price">
+                            <div class="price-head">
+                                <h2>Start-up</h2>
+                                <p>$10 <span>month</span></p>
+                            </div>
+                            <div class="price-content">
+                                <ul>
+                                    <li><i class="fa fa-check-circle"></i>10GB Space</li>
+                                    <li><i class="fa fa-check-circle"></i>100GB Bandwidth</li>
+                                    <li><i class="fa fa-check-circle"></i>15 Email Accounts</li>
+                                    <li><i class="fa fa-times-circle"></i>Unlimited Domains</li>
+                                    <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                                </ul>
+                            </div>
+                            <div class="price-button">
+                                <a class="buy-btn" href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-price">
+                            <div class="price-head">
+                                <h2>Business</h2>
+                                <p>$50 <span>month</span></p>
+                            </div>
+                            <div class="price-content">
+                                <ul>
+                                    <li><i class="fa fa-check-circle"></i>20GB Space</li>
+                                    <li><i class="fa fa-check-circle"></i>20GB Bandwidth</li>
+                                    <li><i class="fa fa-check-circle"></i>50 Email Accounts</li>
+                                    <li><i class="fa fa-times-circle"></i>Unlimited Domains</li>
+                                    <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                                </ul>
+                            </div>
+                            <div class="price-button">
+                                <a class="buy-btn" href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-price">
+                            <div class="price-head">
+                                <h2>Advanced</h2>
+                                <p>$100 <span>month</span></p>
+                            </div>
+                            <div class="price-content">
+                                <ul>
+                                    <li><i class="fa fa-check-circle"></i>100GB Space</li>
+                                    <li><i class="fa fa-check-circle"></i>Unlimited Bandwidth</li>
+                                    <li><i class="fa fa-check-circle"></i>Unlimited Email Accounts</li>
+                                    <li><i class="fa fa-check-circle"></i>Unlimited Domains</li>
+                                    <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+                                </ul>
+                            </div>
+                            <div class="price-button">
+                                <a class="buy-btn" href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------Price Plan Rows End--------------->
+                </div>
+            </div>
+        </section>
+        <!------------Price Plan Section End--------------->
+
+        <!------------Testimonials Section Start--------------->
+        <section id="testimonials">
+            <div class="container">
+                <h1>Testimonials</h1>
+                <p class="text-center">Reviews about our dog services</p>
+                <div class="row">
+                    <!------------Testimonials Profiles Start--------------->
+                    <div class="col-md-4 text-center">
+                        <div class="profile">
+                            <img src="img/user1.jpeg" class="user">
+                            <blockquote>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</blockquote>
+                            <h3>Princess <span> Co-Founder at XYZ</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="profile">
+                            <img src="img/user2.jpg" class="user">
+                            <blockquote>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</blockquote>
+                            <h3>Lulu <span> Manager at XYZ</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="profile">
+                            <img src="img/user4.jpg" class="user">
+                            <blockquote>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</blockquote>
+                            <h3>Nana <span> Co-Founder at XYZ</span></h3>
+                        </div>
+                    </div>
+                    <!------------Testimonials Profiles End--------------->
+                </div>
+            </div>
+        </section>
+        <!------------Testimonials Section End--------------->
+
+        <!------------Contact Form Section Start--------------->
+        <section id="contact">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email Id">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 contact-info">
+                        <div class="follow">
+                            <b>Address: </b><i class="fa fa-map-marker"></i> 123 Fake Street, Brooklyn, NY 11223
+                        </div>
+                        <div class="follow">
+                            <b>Phone Number: </b><i class="fa fa-phone"></i> 911
+                        </div>
+                        <div class="follow">
+                            <b>Email: </b><i class="fa fa-envelope-o"></i> dogsitting@gmail.com
+                        </div>
+                        <div class="follow">
+                            <label><b>Get Social: </b></label>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------Contact Form Section End--------------->
+
+        <!------------Footer Section Start--------------->
+        <section id="footer">
+            <div class="container text-center">
+                <p>Made With <i class="fa fa-heart-o"></i> Love</p>
+            </div>
+        </section>
+        <!------------Footer Section End--------------->
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+</body>
+</head>    
+</html>
